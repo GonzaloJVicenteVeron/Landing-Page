@@ -31,7 +31,7 @@ header > img {
     color: white;
 }
 
-.search-label {
+#search-label {
     width: 180px;
 }
 
@@ -42,6 +42,7 @@ li, a {
     color: white;
     font-size: 17px;
     font-weight: 800;
+        
 }
 
 .navbar {
@@ -56,8 +57,16 @@ li, a {
     gap: 20px;
     font-size: 15px;
     color: rgb(255, 255, 255) ;
+    
+}
+
+.navlinks li:hover {
+    transform: scale(1.15);
 }
 
 nav > a {
     height: 45px;
+}
+nav a:hover {
+    transform: scale(1.15);
 }
