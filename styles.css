@@ -129,3 +129,24 @@ cursor: pointer;
     cursor: pointer;  
 
 }
+
+.about-us-principal {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: #F4EDE8;
+    max-width: 100%;
+    gap: 5px;
+}
+
+.about-us-question {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-us-description {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    
+}
