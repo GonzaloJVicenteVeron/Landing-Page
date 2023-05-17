@@ -81,7 +81,8 @@ nav a:hover {
     justify-content: space-around;
     align-items: center;
     background: linear-gradient(100deg,rgb(0, 0, 0),rgb(87, 83, 83));
-    color: rgb(221, 219, 219)
+    color: rgb(221, 219, 219);
+    margin: 1px;    
 }
 
 .landing-description {    
@@ -136,7 +137,10 @@ cursor: pointer;
     align-items: center;
     background-color: #F4EDE8;
     max-width: 100%;
-    gap: 5px;
+    gap: 50px;
+    padding: 50px;
+    margin: 10px;
+    height: 500px;
 }
 
 .about-us-question {
@@ -151,8 +155,73 @@ cursor: pointer;
     
 }
 
-.Cards {
-    border: solid;
+.Cards {    
     padding: 10px;
-    margin: 10px;
+    margin: 45px;
+    height: 500px;
 }
+
+.cards-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    
+}
+
+.cards-top h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 200px;
+    text-align: center;
+}
+
+.cards-top p {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.cards-advantages {
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.cards-advantages h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 200px;
+}
+
+.cards-advantages p {
+    font-family: 'Roboto Slab', serif ;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.cards-advantages-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cards-advantages-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cards-advantages-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
