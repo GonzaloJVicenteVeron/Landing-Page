@@ -1,0 +1,80 @@
+@media  (max-width: 992px){
+
+    .header {
+        max-width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: nowrap;
+    }
+
+    .landing {
+    display: flex; 
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: space-around;
+    align-items: center;   
+    }
+
+    .landing-description {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .landing-description h2 {
+        text-align: center;
+        font-size: 75px;
+        padding-top: 20px;
+    }
+
+    .landing img {
+        height: 300px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
