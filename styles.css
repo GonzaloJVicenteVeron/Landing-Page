@@ -364,4 +364,23 @@ cursor: pointer;
     padding: 12px;
     margin: 15px;
     font-size: 13px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
+
+.contact-boton:hover {
+    transition: all 0.3s ease;
+    background: black;
+}
+
+.footer {
+    color: white;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}
+
+
