@@ -1,6 +1,8 @@
+/* Responsive 992 */
+
 @media  (max-width: 992px){
 
-    .header {
+    header {
         max-width: 100%;
         display: flex;
         justify-content: space-around;
@@ -87,6 +89,68 @@
         
     }
     
+    
+    /* Responsive 768 */
+
+    @media (max-width: 768px) {
+
+        header {
+            gap: 20px
+        }
+
+        .search label {
+            text-align: center;
+        }
+
+        .Cards {                            
+            height: 500px;
+            border: solid;
+            border-radius: 0.2rem;
+        
+        .cards-top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .cards-top h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 40px;
+            font-weight: 200px;
+            text-align: center;
+            margin-left: 25px;
+        }
+
+        .cards-advantages {
+            display: flex ;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+
+        .cards-advantages h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            font-weight: 400px;
+        }
+
+        .cards-advantages img {
+            display: flex ;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 150px;
+            
+        }
+
+
+
+
+
+
+
+    }
+
     
 
 
