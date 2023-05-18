@@ -252,6 +252,57 @@
 
 }
 
+/* Responsive 576 */
+
+@media (max-width: 576px) {
+
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 110px;
+        gap: 3px;
+        width: 100%;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;        
+    }
+    
+    .navbar a {
+        padding-left: 30px;
+    }
+    
+    .navlinks {
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
 
 
 

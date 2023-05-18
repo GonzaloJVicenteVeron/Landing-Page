@@ -18,10 +18,9 @@ header {
     justify-content: space-between;
     align-items:center;
     padding: 20px;
-    max-width: 100%;
-    max-height: 60px;
+    max-width: 100%;    
     background-color: rgb(22, 128, 147);
-
+    max-height: 150px;
 }
 
 header > img {
@@ -395,5 +394,6 @@ cursor: pointer;
 }
 
 
-    
+/* estilando la hamburguesa */
+
 
