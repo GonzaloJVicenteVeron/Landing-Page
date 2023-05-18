@@ -14,7 +14,8 @@
     flex-direction: column;
     padding-top: 10px;
     justify-content: space-around;
-    align-items: center;   
+    align-items: center;
+    background: linear-gradient(rgb(14, 14, 14),rgb(71, 70, 70));   
     }
 
     .landing-description {
@@ -33,6 +34,34 @@
     .landing img {
         height: 300px;
     }
+
+    .about-us-principal {
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px ;
+        margin: 4px ;
+    }
+
+    .about-us-principal img {
+        height: 270px;
+    }
+
+    .about-us-question br {
+        display: none;
+    }
+    
+    .Cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        margin: 10px;
+    } 
+    
+    
 
 
 
