@@ -260,7 +260,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 110px;
+        height: 120px;
         gap: 3px;
         width: 100%;
     }
@@ -275,18 +275,64 @@
     
     .navbar a {
         padding-left: 30px;
+        
     }
     
     .navlinks {
         justify-content: space-between;
         gap: 60px;
+        padding-bottom: 10px;
     }
 
+    .landing{
+        margin: 0px;
+        padding: 0px;
+    }
 
+    .landing-description p {
+        text-align: center;
+    }
 
+    .about-us-principal {
+        padding: 20px;
+        margin: 0px;
+    }
+    
+    .about-us-principal img {
+        height: 200px;
+    }
 
+    .Cards {
+        border: none;
+        height: 1000px;
+        margin: 0px;
+        padding: 0px;
+    }
 
+    .cards-advantages {
+        flex-direction: column;
+        
+    }
 
+    .contact-h2 {
+        text-align: center;
+    }
+
+    .contact-left {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .contact-us-email img {    
+    padding-right: 0px;
+}
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+        align-items: center;
+    }
 
 
 
